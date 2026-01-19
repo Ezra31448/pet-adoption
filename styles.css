@@ -1,6 +1,11 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .top-section-wrapper {
@@ -18,9 +23,19 @@ body, html {
 }
 
 .our-btn {
+    font-weight: 600;
     background-color: #475AFF;
     color: #FFF;
     text-decoration: none;
     padding: 13px 25px;
     border-radius: 1000px;
+}
+
+.our-btn--outline {
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+
+.utility-mr {
+    margin-right: 10px;
 }
