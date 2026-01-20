@@ -12,6 +12,12 @@ body {
     background-color: #001D37;
     padding-left: 16px;
     padding-right: 16px;
+    overflow: hidden;
+}
+
+.actual-top-content {
+    z-index: 2;
+    position: relative;
 }
 
 .top-section {
@@ -20,6 +26,8 @@ body {
     padding-bottom: 139px;
     max-width: 1066px;
     margin: 0 auto;
+    position: relative;
+
 }
 
 .top-section h1 {
@@ -80,4 +88,28 @@ body {
 .intro-feature h2 {
     font-size: 1.5rem;
     margin: 31px 0 3px 0;
+}
+
+.circle {
+    width: 617px;
+    height: 617px;
+    background: #D660FF;
+    border-radius: 50%;
+    opacity: 0.85;
+    filter: blur(150px);
+    position: absolute;
+    top: 62px;
+    right: -390px;
+}
+
+.circle-2 {
+    width: 617px;
+    height: 617px;
+    background: #6079FF;
+    border-radius: 50%;
+    opacity: 0.85;
+    filter: blur(150px);
+    position: absolute;
+    top: -365px;
+    left: -123px;
 }
