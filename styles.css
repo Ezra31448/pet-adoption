@@ -49,6 +49,7 @@ body {
     text-decoration: none;
     padding: 13px 25px;
     border-radius: 1000px;
+    border: 2px solid #475AFF;
 }
 
 .our-btn--outline {
@@ -74,4 +75,9 @@ body {
 .intro-feature p {
     font-size: 1.0625rem;
     margin: 0;
+}
+
+.intro-feature h2 {
+    font-size: 1.5rem;
+    margin: 31px 0 3px 0;
 }
