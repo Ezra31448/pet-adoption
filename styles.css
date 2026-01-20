@@ -113,3 +113,66 @@ body {
     top: -365px;
     left: -123px;
 }
+
+.page-section {
+    background-color: #FFF;
+    padding: 130px 16px;
+}
+
+.page-section-inner {
+    max-width: 1066px;
+    margin: auto;
+}
+
+.page-section-title {
+    font-size: 5.31rem;
+    margin: 0;
+    line-height: 1;
+}
+
+.pet-filter {
+    color: #9F9F9F;
+    font-size: 1.375rem;
+}
+
+.pet-filter button {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.375rem;
+    background-color: transparent;
+    border: none;
+    color: #9F9F9F;
+}
+
+.list-of-pets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 34px;
+}
+
+.pet-card {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 165px 1fr;
+    border-radius: 20px;
+    border: 1px solid #f3f3f3;
+    background: #FFF;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+}
+
+.pet-card-photo {
+    order: 1;
+    grid-row: 1;
+}
+
+.pet-card-photo img {
+    width: 100%;
+    display: block;
+}
+
+.site-footer p {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #A6A6A6;
+    margin: 0;
+    padding: 0 0 65px 0;
+}
