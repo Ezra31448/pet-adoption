@@ -1,4 +1,115 @@
-.top-section {
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.top-section-wrapper {
     background-color: #001D37;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow: hidden;
+}
+
+.actual-top-content {
+    z-index: 2;
+    position: relative;
+}
+
+.top-section {
     color: white;
+    padding-top: 139px;
+    padding-bottom: 139px;
+    max-width: 1066px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.top-section h1 {
+    max-width: 525px;
+    font-size: 6.25rem;
+    margin: 0;
+    line-height: 97.3%;
+}
+
+.intro-text {
+    max-width: 435px;
+    font-size: 1.25rem;
+    line-height: 169.3%;
+    margin: 1rem 0;
+}
+
+.intro-buttons {
+    margin-bottom: 129px;
+}
+
+.our-btn {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #475AFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 1000px;
+    border: 2px solid #475AFF;
+}
+
+.our-btn--outline {
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+
+.utility-mr {
+    margin-right: 10px;
+}
+
+.intro-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+}
+
+.intro-feature {
+    padding: 33px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.intro-feature p {
+    font-size: 1.0625rem;
+    margin: 0;
+}
+
+.intro-feature h2 {
+    font-size: 1.5rem;
+    margin: 31px 0 3px 0;
+}
+
+.circle {
+    width: 617px;
+    height: 617px;
+    background: #D660FF;
+    border-radius: 50%;
+    opacity: 0.85;
+    filter: blur(150px);
+    position: absolute;
+    top: 62px;
+    right: -390px;
+}
+
+.circle-2 {
+    width: 617px;
+    height: 617px;
+    background: #6079FF;
+    border-radius: 50%;
+    opacity: 0.85;
+    filter: blur(150px);
+    position: absolute;
+    top: -365px;
+    left: -123px;
 }
