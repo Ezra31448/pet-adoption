@@ -8,6 +8,10 @@ body {
     font-family: "Source Sans 3", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .top-section-wrapper {
     background-color: #001D37;
     padding-left: 16px;
