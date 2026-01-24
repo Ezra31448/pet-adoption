@@ -23,6 +23,9 @@ async function petsArea() {
     clone.querySelector(".pet-name").textContent = pet.name;
     clone.querySelector(".pet-description").textContent = pet.description;
     clone.querySelector(".pet-age").textContent = createAgeText(pet.birthYear);
+
+    if (!pet.photo) pet.photo = "images/Fallback.jpg"
+
     clone.querySelector(".pet-card-photo img").src = pet.photo;
     clone.querySelector(".pet-card-photo img").alt = `${pet.species} name ${pet.name}`;
 
